@@ -1,6 +1,9 @@
 const HDWalletProvider = require("truffle-hdwallet-provider");
 const Web3 = require("web3");
-const { interface, bytecode } = require("./compile");
+const {
+  interface,
+  bytecode
+} = require("./compile");
 
 const accountMnemonic =
   "north boy virus bench citizen brisk lucky fork release purse gallery nasty";
@@ -17,8 +20,7 @@ const deploy = async () => {
 
   const result = await new web3.eth.Contract(JSON.parse(interface))
     .deploy({
-      data: "0x" + bytecode,
-      arguments: ["Hello world"]
+      data: "0x" + bytecode
     })
     .send({
       from: accounts[0],
