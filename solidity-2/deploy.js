@@ -28,6 +28,7 @@ const deploy = async () => {
       gasLimit: "1000000"
     });
 
+  console.log(interface);
   console.log("Contraact deployed to", result.options.address);
 };
 
