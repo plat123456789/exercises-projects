@@ -1,3 +1,0 @@
-function set(callback,millisec){
-    
-}
