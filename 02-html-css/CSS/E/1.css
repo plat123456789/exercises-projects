@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-second{
+    display: flex;
+    justify-content: center;
+}
+
+.green {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.blue {
+    width: 100px;
+    height: 100px;
+    background-color: blue  
+}
+
+.red {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

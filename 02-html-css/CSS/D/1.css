@@ -1,0 +1,21 @@
+div {
+    width: 100px;
+    height: 100px;
+}
+
+#green {
+    background-color: green;
+    float: right;
+}
+
+#blue {
+    background-color: blue;
+
+}
+
+#red {
+    background-color: red;
+    margin:auto; /* top and bottom: 0 margin     */
+                 /* Box is horizontally centered */
+
+}
