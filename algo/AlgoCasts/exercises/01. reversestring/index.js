@@ -20,7 +20,6 @@
 
 //     for (let character of str) {
 //         resultString = character + resultString
-//         console.log(resultString)
 //     }
 
 //     return resultString;
